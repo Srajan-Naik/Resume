@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srajan Naika - Resume</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff;
+            color: #222222;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume {
+            width: 100%;
+            max-width: 1200px;
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 60px 30px 80px;
+            background: #ffffff;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 12px 36px;
+            gap: 30px;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 44px;
+            color: #000000;
+            margin: 24px 0 22px;
+            font-weight: 700;
+        }
+
+        .designation {
+            font-size: 21px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        .contact {
+            font-size: 19px;
+            line-height: 1.35;
+        }
+
+        .profile-photo {
+            width: 164px;
+            height: 173px;
+            object-fit: cover;
+            margin-top: 0;
+            flex-shrink: 0;
+        }
+
+        .section {
+            margin: 0 0 13px;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            color: #111111;
+            font-weight: 700;
+            border-bottom: 2px solid #111111;
+            margin: 0 0 3px;
+            padding-bottom: 1px;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.3;
+            margin: 0;
+        }
+
+        .education-line {
+            font-size: 19px;
+            line-height: 1.35;
+        }
+
+        .education-line strong {
+            font-weight: 700;
+        }
+
+        ul {
+            margin: 2px 0 0;
+            padding-left: 27px;
+            font-size: 18px;
+            line-height: 1.28;
+        }
+
+        .project-title {
+            font-size: 19px;
+            font-weight: bold;
+            margin-top: 3px;
+        }
+
+        .project-list {
+            margin-top: 1px;
+        }
+
+        .declaration {
+            margin-top: 12px;
+        }
+
+        .signature {
+            text-align: right;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+            margin-right: 15px;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                background: #ffffff;
+            }
+
+            .resume {
+                width: 100%;
+                max-width: none;
+                min-height: 0;
+                padding: 35px 30px;
+            }
+
+            @page {
+                size: A4;
+                margin: 0;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .resume {
+                padding: 25px 18px;
+            }
+
+            .header {
+                margin: 0 0 25px;
+                gap: 15px;
+            }
+
+            h1 {
+                font-size: 30px;
+                margin-top: 10px;
+            }
+
+            .designation {
+                font-size: 16px;
+            }
+
+            .contact {
+                font-size: 14px;
+                overflow-wrap: anywhere;
+            }
+
+            .profile-photo {
+                width: 105px;
+                height: 115px;
+            }
+
+            .section h2 {
+                font-size: 19px;
+            }
+
+            .section p,
+            ul,
+            .education-line {
+                font-size: 15px;
+            }
+
+            .project-title {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header-info">
+                <h1>SRAJAN NAIKA</h1>
+
+                <div class="designation">
+                    Computer Science and Design Engineering Student
+                </div>
+
+                <div class="contact">
+                    Phone: 8317413306&nbsp; | &nbsp;Email: srajannaik96@gmail.com<br>
+                    Address: Kajke Kodjeddu, Nalkur Village, Udupi – 576234
+                </div>
+            </div>
+
+            <img src="srajann.jpeg" alt="Srajan Naika" class="profile-photo">
+        </header>
+
+        <!-- CAREER OBJECTIVE -->
+        <section class="section">
+            <h2>CAREER OBJECTIVE</h2>
+            <p>
+                Motivated first-year Computer Science and Design Engineering student aspiring to become a skilled
+                software engineer.
+                Interested in programming, software development, problem solving, and building practical technology
+                solutions.
+            </p>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section">
+            <h2>EDUCATION</h2>
+            <div class="education-line">
+                <strong>B.E. – Computer Science and Design Engineering</strong>
+                &nbsp;|&nbsp; Canara Engineering College
+            </div>
+            <p>
+                Completed First Year | Currently building foundational skills in programming and computer science.
+            </p>
+        </section>
+
+        <!-- TECHNICAL SKILLS -->
+        <section class="section">
+            <h2>TECHNICAL SKILLS</h2>
+            <ul>
+                <li>C Programming – Basic</li>
+                <li>Python – Basic</li>
+                <li>Java / Object-Oriented Programming – Beginner</li>
+                <li>Problem Solving – Beginner</li>
+                <li>Basic understanding of Data Structures and Algorithms</li>
+                <li>Interested in AI/ML, Prompt Engineering and Cybersecurity</li>
+            </ul>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section">
+            <h2>PROJECTS</h2>
+
+            <div class="project-title">
+                AutoConnect – Auto Lost &amp; Found System
+            </div>
+
+            <ul class="project-list">
+                <li>
+                    A web-based concept that helps passengers report items lost in autorickshaws and connects them with
+                    relevant drivers.
+                </li>
+                <li>
+                    Designed the flow for passenger reporting, driver notifications, acceptance, and passenger-driver
+                    connection.
+                </li>
+            </ul>
+
+            <div class="project-title">
+                Automated Irrigation &amp; Fire Detection System
+            </div>
+
+            <ul class="project-list">
+                <li>
+                    Prototype concept using sensors to automate irrigation while giving fire detection priority.
+                </li>
+                <li>
+                    Planned a dashboard for notifications and explored ML as a backup check when moisture readings may
+                    be unreliable.
+                </li>
+            </ul>
+        </section>
+
+        <!-- STRENGTHS -->
+        <section class="section">
+            <h2>STRENGTHS</h2>
+            <ul>
+                <li>Patience and willingness to learn</li>
+                <li>Problem-solving mindset</li>
+                <li>Interested in practical, real-world projects</li>
+            </ul>
+        </section>
+
+        <!-- CAREER INTERESTS -->
+        <section class="section">
+            <h2>CAREER INTERESTS</h2>
+            <ul>
+                <li>Software Engineering</li>
+                <li>Web / Application Development</li>
+                <li>Artificial Intelligence and Machine Learning</li>
+                <li>Product-based technology companies</li>
+            </ul>
+        </section>
+
+        <!-- DECLARATION -->
+        <section class="section declaration">
+            <h2>DECLARATION</h2>
+            <p>
+                I hereby declare that the information provided above is true to the best of my knowledge.
+            </p>
+        </section>
+
+        <div class="signature">
+            Srajan Naika
+        </div>
+
+    </div>
+
+</body>
+
+</html>
